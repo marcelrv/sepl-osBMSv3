@@ -12,15 +12,17 @@ Settings:
 speed: 19200 8N1
 
 ## Main blocks
-| Block           | Adres  | Length | len(hex) | Type       | Description                                  |
-|-----------------|--------|--------|----------|------------|----------------------------------------------|
-| [PIA](pia.md)   | 0x1000 | 18     | 0x12     | registers  | Basic status info                            |
-| [PIB](pib.md)   | 0x1100 | 26     | 0x1A     | registers  | Cell voltage and temperatures                |
-| [PIC](pic.md)   | 0x1200 | 144    | 0x90     | bits/coils | Cell & other Alarms                          |
-| [SPA](spa.md)   | 0x1300 | 106    | 0x6A     | registers  | Settings                                     |
-| [SFA](sfa.md)   | 0x1400 | 80     | 0x50     | bits/coils | Overall alarms                               |
-| [SCA](sca.md)   | 0x150D | 13     | 0x0D     | registers  | FET and onther status & setting              |
-| info            | 0x1700 | 51     | 0x33     | registers  | Manufacturer, product and serialnumber info  |
+| Block           | Adres  | Length | len(hex) | Type       | Description                                                 |
+|-----------------|--------|--------|----------|------------|-------------------------------------------------------------|
+| [PIA](pia.md)   | 0x1000 | 18     | 0x12     | registers  | Pack Info A: Basic status info                              |
+| [PIB](pib.md)   | 0x1100 | 26     | 0x1A     | registers  | Pack Info B: Cell voltage and temperatures                  |
+| [PIC](pic.md)   | 0x1200 | 144    | 0x90     | bits/coils | Pack Info C: Cell & other Alarms                            |
+| [SPA](spa.md)   | 0x1300 | 106    | 0x6A     | registers  | System Parameters A: Settings                               |
+| [SFA](sfa.md)   | 0x1400 | 80     | 0x50     | bits/coils | System Function A: Overall alarms                           |
+| [SCA](sca.md)   | 0x150D | 13     | 0x0D     | registers  | System Control A: FET and onther status & setting           |
+| HIA             | 0x1600 | 39     | 0x27     | registers  | History Info                                                |
+| VIA             | 0x1700 | 51     | 0x33     | registers  | Version info A: Manufacturer, product and serialnumber info |
+| PCA             | 0x1800 | 19     | 0x23     | registers  | Protocol control                                            |
 
 
 ## Request made by Seplos software and example response
