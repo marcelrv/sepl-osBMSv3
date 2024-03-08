@@ -6,6 +6,8 @@ Description of Seplos BMS v3 protocol
 Seplos BMS v3 uses modbus RTU protocol for reading and writing the values and settings as seen in the BMSSudio app
 The individual BMSses can be addressed by the modbus Client Id. (minus 1: Client 1 in software = client id 0 in modbus)
 
+Writing to the SPA & SCA registers will change the settings of the BMS
+
 Settings:
 speed: 19200 8N1
 
@@ -55,6 +57,8 @@ response: [False, False, False, False, False, False, False, False, False, False,
 client.read_coils(0x1400, 0x50, slave=0):
 response: [True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, False, False, True, False, False, False, False, False, False, False, True, True, True, True, True, True, True, False, True, True, True, True, False, True, False, False, True, True, True, True, True, False, False, True, True, True, True, True, False, False, False, False, True, True, False, False, False, True, True, False, True, True, True, True, False, True, True, False]
 ```
+## Excel
+Excel file with the tables available here [Seplos BMS v3 modbus registers.xlsx](https://github.com/marcelrv/seplosBMSv3/blob/main/Seplos%20BMS%20v3%20modbus%20registers.xlsx)
 
 ## Warning
 
