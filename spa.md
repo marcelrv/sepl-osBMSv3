@@ -1,6 +1,8 @@
-# SPA Table
+# SPA & PCT Table
 
+## SPA Table
 Settings
+
 
 | **"ID"** | **rtuAddress** | **description zh-CN** | **description en-US**                       | **byte** | **value** | **Index** | **unit** | **scale** | **hasSign** | **isDisplay** | **datatype**     | **attribute** |
 |----------|----------------|-----------------------|---------------------------------------------|----------|-----------|-----------|----------|-----------|-------------|---------------|------------------|---------------|
@@ -110,3 +112,26 @@ Settings
 | 104      | 1367           | 放电请求电流                | Discharge request current                   | 2        | 0         | 206       | A        | 1         | 0           | 1             | IntParameterInfo | Normal        |
 | 105      | 1368           | PCS协议                 | Pcs protocol                                | 2        | 0         | 208       | PPT      | 1         | 0           | 0             | IntParameterInfo | Normal        |
 | 106      | 1369           | 检流器校正因子               | Current detector correction factor          | 2        | 0         | 210       | 0.1      | 1         | 0           | 0             | IntParameterInfo | Normal        |
+
+## PCT Table
+
+Protocol selection options related to register 0x1368 pcs protocol
+
+| **"ID"** | **protocolName** | **字段1**  |
+|----------|------------------|----------|
+| 0        | Pylon_CAN        | 派能       |
+| 1        | Growatt_CAN      | 古瑞瓦特     |
+| 2        | Goodwe_CAN       | 固德威      |
+| 3        | Sofar_CAN        | 首航       |
+| 4        | SMA_CAN          | SMA      |
+| 5        | Victron_CAN      | Victron  |
+| 6        | Studer_CAN       | Studer   |
+| 7        | Ginlong_CAN      | 锦浪       |
+| 8        | Voltronic_485    | 日月元      |
+| 9        | Srne_485         | 硕日       |
+| 10       | Growatt_485      | 古瑞瓦特     |
+| 11       | Pylon_485        | 派能       |
+| 12       | Deye(Pylon)_485  | 德业（派能）   |
+| 13       | XZH(LCD02)_485   | 鑫智恒(LCD) |
+| 14       | GudE_485         | 固德       |
+| 15       | NPP-IMB_485      | 视源       |
