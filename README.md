@@ -67,6 +67,6 @@ Note: **I'm not affiliated to Seplos in any way!**
 This info is explicitly provided “AS IS” without express or implied warranties, guarantees, or guarantees of correctness. 
 So USE THEM AT YOUR OWN RISK! Don't complain if you broke your BMS.
 
-This content © 2023 is licensed under [CC BY-NC 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/)] ![https://creativecommons.org/licenses/by-nc-sa/4.0/](img/svg/by-nc.eu.svg) 
+This content © 2024 is licensed under [CC BY-NC 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/)] ![img/svg/by-nc.eu.svg](https://github.com/marcelrv/seplosBMSv3/blob/main/img/by-nc.eu.svg)
 
 
