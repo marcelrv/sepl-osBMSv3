@@ -1,6 +1,10 @@
 # Seplos BMS v3
 
-Description of Seplos BMS v3 protocol
+Description of Seplos BMS v3 protocol.
+
+Note. the info in this github is mainly extracted from the Seplos application, and from decoding the traffic from the app.
+
+The 'formal' description is here [BMS3.0 Modbus-RTU Protocol.pdf](https://github.com/marcelrv/seplosBMSv3/blob/main/docu/BMS3.0%20Modbus-RTU%20Protocol.pdf)
 
 ## Modbus RTU
 Seplos BMS v3 uses modbus RTU protocol for reading and writing the values and settings as seen in the BMSSudio app
