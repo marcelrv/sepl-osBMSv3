@@ -1,4 +1,4 @@
-# Seplos BMSv3
+# Seplos BMS v3
 
 Description of Seplos BMS v3 protocol
 
